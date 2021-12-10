@@ -1,0 +1,10 @@
+D:\Dev\FullApp1\FullApp1\Services\FullApp1.Services.Interfaces\bin\Debug\netstandard2.1\FullApp1.Services.Interfaces.deps.json
+D:\Dev\FullApp1\FullApp1\Services\FullApp1.Services.Interfaces\bin\Debug\netstandard2.1\FullApp1.Services.Interfaces.dll
+D:\Dev\FullApp1\FullApp1\Services\FullApp1.Services.Interfaces\bin\Debug\netstandard2.1\FullApp1.Services.Interfaces.pdb
+D:\Dev\FullApp1\FullApp1\Services\FullApp1.Services.Interfaces\obj\Debug\netstandard2.1\FullApp1.Services.Interfaces.csproj.AssemblyReference.cache
+D:\Dev\FullApp1\FullApp1\Services\FullApp1.Services.Interfaces\obj\Debug\netstandard2.1\FullApp1.Services.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\FullApp1\FullApp1\Services\FullApp1.Services.Interfaces\obj\Debug\netstandard2.1\FullApp1.Services.Interfaces.AssemblyInfoInputs.cache
+D:\Dev\FullApp1\FullApp1\Services\FullApp1.Services.Interfaces\obj\Debug\netstandard2.1\FullApp1.Services.Interfaces.AssemblyInfo.cs
+D:\Dev\FullApp1\FullApp1\Services\FullApp1.Services.Interfaces\obj\Debug\netstandard2.1\FullApp1.Services.Interfaces.csproj.CoreCompileInputs.cache
+D:\Dev\FullApp1\FullApp1\Services\FullApp1.Services.Interfaces\obj\Debug\netstandard2.1\FullApp1.Services.Interfaces.dll
+D:\Dev\FullApp1\FullApp1\Services\FullApp1.Services.Interfaces\obj\Debug\netstandard2.1\FullApp1.Services.Interfaces.pdb

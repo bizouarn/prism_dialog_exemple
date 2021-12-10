@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "J/iic/+gk50eig+UPI5NS71ShiaVWvFgRVr0CA6DtDF38+t/3o9iFsCoHEcbQXf9ylY2sT2/KE1gDVoVriuYkw==",
+  "success": true,
+  "projectFilePath": "D:\\Dev\\FullApp1\\FullApp1\\Modules\\FullApp1.Modules.ModuleName\\FullApp1.Modules.ModuleName.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AYB\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\AYB\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512",
+    "C:\\Users\\AYB\\.nuget\\packages\\prism.wpf\\8.0.0.1909\\prism.wpf.8.0.0.1909.nupkg.sha512"
+  ],
+  "logs": []
+}
