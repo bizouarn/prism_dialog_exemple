@@ -12,7 +12,8 @@ namespace FullApp1.Core.Mvvm
             RegionManager = regionManager;
         }
 
-        public virtual void ConfirmNavigationRequest(NavigationContext navigationContext, Action<bool> continuationCallback)
+        public virtual void ConfirmNavigationRequest(NavigationContext navigationContext,
+            Action<bool> continuationCallback)
         {
             continuationCallback(true);
         }
@@ -24,12 +25,10 @@ namespace FullApp1.Core.Mvvm
 
         public virtual void OnNavigatedFrom(NavigationContext navigationContext)
         {
-
         }
 
         public virtual void OnNavigatedTo(NavigationContext navigationContext)
         {
-
         }
     }
 }

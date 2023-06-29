@@ -7,12 +7,10 @@ namespace FullApp1.Core.Mvvm
     {
         protected ViewModelBase()
         {
-
         }
 
         public virtual void Destroy()
         {
-
         }
     }
 }

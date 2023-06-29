@@ -1,5 +1,4 @@
-﻿
-namespace FullApp1.Services.Interfaces
+﻿namespace FullApp1.Services.Interfaces
 {
     public interface IMessageService
     {

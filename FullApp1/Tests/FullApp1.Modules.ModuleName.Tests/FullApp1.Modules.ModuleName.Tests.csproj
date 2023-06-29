@@ -21,7 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Filtrage\Filtrage.csproj" />
     <ProjectReference Include="..\..\Modules\FullApp1.Modules.ModuleName\FullApp1.Modules.ModuleName.csproj" />
   </ItemGroup>
 

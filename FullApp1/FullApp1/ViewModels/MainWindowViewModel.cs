@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+using System.ComponentModel;
+using FullApp1.Services.Interfaces;
 using Prism.Mvvm;
 using Prism.Commands;
 using Prism.Services.Dialogs;
@@ -9,27 +10,35 @@ namespace FullApp1.ViewModels
     {
         private readonly IDialogService _dialogService;
         private string _title = "Prism Application";
-        public string Params { get; set; }
+
+        private string _param;
+
+        public string Params
+        {
+            get => _param;
+            set => SetProperty(ref _param, value);
+        }
 
         public DelegateCommand<object> SubmitCommand { get; private set; }
+
         public string Title
         {
             get { return _title; }
             set { SetProperty(ref _title, value); }
         }
 
-        public MainWindowViewModel(IDialogService dialogService)
+        public MainWindowViewModel(IDialogService dialogService, IMessageService message)
         {
-            Params = "NULL";
             _dialogService = dialogService;
-            SubmitCommand = new DelegateCommand<object>((object args)=> {
-                var param = new DialogParameters {
-                    { "Text",args }
+            Params = message.GetMessage();
+            SubmitCommand = new DelegateCommand<object>((object args) =>
+            {
+                var param = new DialogParameters
+                {
+                    {"Text", args}
                 };
-                _dialogService.ShowDialog("ViewA",param,null);
+                _dialogService.ShowDialog("ViewA", param, null);
             });
         }
-
-
     }
 }

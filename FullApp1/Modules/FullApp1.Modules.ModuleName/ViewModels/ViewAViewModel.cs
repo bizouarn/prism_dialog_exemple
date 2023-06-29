@@ -1,6 +1,4 @@
 ﻿using System;
-using System.ComponentModel;
-using FullApp1.Core.Mvvm;
 using FullApp1.Services.Interfaces;
 using Prism.Mvvm;
 using Prism.Regions;
@@ -12,7 +10,13 @@ namespace FullApp1.Modules.ModuleName.ViewModels
     {
         private string _message;
         private string _text = "Notification";
-        public string Text { get { return _text; } set { SetProperty(ref _text, value); } }
+
+        public string Text
+        {
+            get { return _text; }
+            set { SetProperty(ref _text, value); }
+        }
+
         public string Message
         {
             get { return _message; }

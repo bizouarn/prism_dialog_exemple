@@ -4,15 +4,15 @@
         xmlns:prism="http://prismlibrary.com/"
         prism:ViewModelLocator.AutoWireViewModel="True"
         xmlns:core="clr-namespace:FullApp1.Core;assembly=FullApp1.Core"
-        Title="{Binding Title}" Height="350" Width="525" >
+        Title="{Binding Title}" Height="350" Width="525">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <ContentControl Grid.Row="0" prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
-        <Button Grid.Row="1" Command="{Binding SubmitCommand}" CommandParameter="{Binding Params}">Dialog</Button>
-        <TextBox Grid.Row="2" Text="{Binding Params}"/>
+        <Button Grid.Row="1" Command="{Binding SubmitCommand}" CommandParameter="{Binding Params, Mode=TwoWay}">Dialog</Button>
+        <TextBox Grid.Row="2" Text="{Binding Params, Mode=TwoWay}" />
     </Grid>
 </Window>

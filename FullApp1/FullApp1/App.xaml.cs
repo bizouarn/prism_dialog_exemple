@@ -5,7 +5,6 @@ using FullApp1.Services.Interfaces;
 using FullApp1.Views;
 using Prism.Ioc;
 using Prism.Modularity;
-using Prism.Regions;
 using System.Windows;
 
 namespace FullApp1
@@ -17,7 +16,6 @@ namespace FullApp1
     {
         protected override Window CreateShell()
         {
-
             return Container.Resolve<MainWindow>();
         }
 
@@ -32,7 +30,5 @@ namespace FullApp1
         {
             moduleCatalog.AddModule<ModuleNameModule>();
         }
-
-        
     }
 }
